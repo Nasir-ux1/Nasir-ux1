@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Nasir Shaik</h1>
 
 <p align="center">
-  <b>Software Engineer focused on Linux/Ubuntu tooling, Python automation, AI agents, and DevOps systems.</b>
+  <b>Python Developer building AI data tools, automation agents, and Linux/DevOps diagnostics.</b>
 </p>
 
 <p align="center">
@@ -14,16 +14,36 @@
 
 ## About Me
 
-I build practical software projects around Linux operations, automation, developer tooling, AI-assisted workflows, and infrastructure systems. My current focus is on portfolio-grade tools that diagnose real problems, generate useful reports, and are easy to run from the CLI.
+I build practical software projects around AI agents, data analysis, Linux operations, automation, and infrastructure tooling. My current focus is on portfolio-grade systems that accept messy inputs, run real analysis, and produce useful reports or actions.
 
-- Working on: Ubuntu diagnostics, AI agents, data analysis tools, and DevOps automation
-- Comfortable with: Python, Linux, Bash, Docker, GitHub Actions, APIs, and system troubleshooting
+- Working on: AI data apps, autonomous agents, Ubuntu diagnostics, and DevOps automation
+- Comfortable with: Python, pandas, scikit-learn, Streamlit, Linux, Bash, Docker, GitHub Actions, and APIs
 - Interested in: Linux systems, SRE tooling, AI engineering, backend systems, and cloud infrastructure
-- Goal: build reliable tools that turn messy inputs into useful decisions, reports, and actions
+- Goal: build reliable tools that turn raw data, logs, and user questions into clear decisions
 
 ---
 
 ## Featured Projects
+
+### AI Autonomous Data Scientist
+
+An AI-powered Streamlit app that turns a CSV upload and a business question into dataset profiling, cleaning, baseline ML models, automatic charts, and a Markdown analysis report.
+
+**What it does**
+
+- Uploads and profiles CSV datasets
+- Cleans common tabular data issues
+- Infers target columns and classification/regression tasks
+- Trains baseline scikit-learn models
+- Generates Plotly charts automatically
+- Writes a business-style analysis report
+- Includes tests, sample data, and a 22-commit project history
+
+**Tech:** Python, pandas, scikit-learn, Plotly, Streamlit, pytest
+
+Repo: [ai-autonomous-data-scientist](https://github.com/Nasir-ux1/ai-autonomous-data-scientist)
+
+---
 
 ### UbuntuOps Agent - Ubuntu Incident Response Toolkit
 
@@ -61,6 +81,16 @@ An AI/ML-style analyst agent that turns a raw CSV/XLSX dataset and a natural-lan
 **Tech:** Python, pandas, NumPy, matplotlib, Streamlit, unittest
 
 Repo: [insightforge-agent](https://github.com/Nasir-ux1/insightforge-agent)
+
+---
+
+## Project Snapshot
+
+| Project | Focus | Stack |
+| --- | --- | --- |
+| [AI Autonomous Data Scientist](https://github.com/Nasir-ux1/ai-autonomous-data-scientist) | Automated data science app with profiling, ML, charts, and reports | Python, Streamlit, pandas, scikit-learn, Plotly |
+| [UbuntuOps Agent](https://github.com/Nasir-ux1/ubuntuops-agent) | Linux incident response and SRE diagnostics | Python, Linux, systemd, journald, Docker |
+| [InsightForge Agent](https://github.com/Nasir-ux1/insightforge-agent) | Autonomous data analyst for CSV/XLSX reports | Python, pandas, matplotlib, Streamlit |
 
 ---
 
@@ -116,7 +146,7 @@ Repo: [insightforge-agent](https://github.com/Nasir-ux1/insightforge-agent)
 ## Current Focus
 
 ```text
-Linux/Ubuntu diagnostics + Python automation + AI agents + DevOps tooling
+AI data apps + Python automation + Linux diagnostics + DevOps tooling
 ```
 
 I am actively building projects that are easy to run, easy to verify, and useful enough to explain in interviews.
