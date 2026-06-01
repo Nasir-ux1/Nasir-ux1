@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Nasir Shaik</h1>
 
 <p align="center">
-  <b>Software Engineer focused on AI agents, Python automation, Linux systems, and DevOps tooling.</b>
+  <b>Software Engineer focused on Linux/Ubuntu tooling, Python automation, AI agents, and DevOps systems.</b>
 </p>
 
 <p align="center">
@@ -14,16 +14,35 @@
 
 ## About Me
 
-I build practical software projects around automation, developer tooling, AI-assisted workflows, and infrastructure systems. My current focus is on building portfolio-grade AI/ML agents that solve real problems instead of acting like simple chatbots.
+I build practical software projects around Linux operations, automation, developer tooling, AI-assisted workflows, and infrastructure systems. My current focus is on portfolio-grade tools that diagnose real problems, generate useful reports, and are easy to run from the CLI.
 
-- Working on: autonomous AI agents, data analysis tools, and DevOps automation
-- Comfortable with: Python, Linux, Bash, Docker, GitHub Actions, APIs, and data workflows
-- Interested in: AI engineering, backend systems, developer productivity, and cloud infrastructure
+- Working on: Ubuntu diagnostics, AI agents, data analysis tools, and DevOps automation
+- Comfortable with: Python, Linux, Bash, Docker, GitHub Actions, APIs, and system troubleshooting
+- Interested in: Linux systems, SRE tooling, AI engineering, backend systems, and cloud infrastructure
 - Goal: build reliable tools that turn messy inputs into useful decisions, reports, and actions
 
 ---
 
 ## Featured Projects
+
+### UbuntuOps Agent - Ubuntu Incident Response Toolkit
+
+A Linux/SRE-style diagnostics toolkit that collects system evidence, detects common failure patterns, recommends fixes, and generates incident reports.
+
+**What it does**
+
+- Diagnoses failed `systemd` services and `journalctl` logs
+- Detects service issues like port conflicts, restart loops, config errors, missing files, and permission failures
+- Analyzes disk-full incidents, deleted-but-open files, and Docker disk usage
+- Parses SSH/auth logs for brute-force attempts, successful logins, and sudo activity
+- Collects system health from `/proc`
+- Includes CLI, Streamlit dashboard, sample logs, tests, and report generation
+
+**Tech:** Python, Linux `/proc`, systemd, journald, Docker, Bash, Streamlit, unittest
+
+Repo: [ubuntuops-agent](https://github.com/Nasir-ux1/ubuntuops-agent)
+
+---
 
 ### InsightForge - Autonomous Data Analyst Agent
 
@@ -97,7 +116,7 @@ Repo: [insightforge-agent](https://github.com/Nasir-ux1/insightforge-agent)
 ## Current Focus
 
 ```text
-AI agents + Python automation + data analysis + DevOps tooling
+Linux/Ubuntu diagnostics + Python automation + AI agents + DevOps tooling
 ```
 
 I am actively building projects that are easy to run, easy to verify, and useful enough to explain in interviews.
