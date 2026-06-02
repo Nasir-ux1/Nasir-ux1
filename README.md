@@ -25,6 +25,23 @@ I build practical software projects around AI agents, data analysis, Linux opera
 
 ## Featured Projects
 
+### AI-SRE - Autonomous Linux Troubleshooting Agent
+
+An interactive terminal and Streamlit-based incident response agent that merges safe local systems tool execution with LLM reasoning.
+
+**What it does**
+
+- Safe structured systems diagnostics (disk metrics, systemd unit loops, network listeners, process hogs, and journal logs)
+- Supports offline SRE simulation mode as well as live Gemini and OpenAI API function-calling loops
+- Generates safe-to-execute Bash mitigation scripts with comprehensive explanations
+- Fully verified with active Python testing suites and structured GitHub Actions CI automation
+
+**Tech:** Python, systemd, journald, Streamlit, Rich CLI, pytest, Google Gemini API, OpenAI API
+
+Repo: [ai-sre-agent](https://github.com/Nasir-ux1/ai-sre-agent)
+
+---
+
 ### AI Autonomous Data Scientist
 
 An AI-powered Streamlit app that turns a CSV upload and a business question into dataset profiling, cleaning, baseline ML models, automatic charts, and a Markdown analysis report.
@@ -88,6 +105,7 @@ Repo: [insightforge-agent](https://github.com/Nasir-ux1/insightforge-agent)
 
 | Project | Focus | Stack |
 | --- | --- | --- |
+| [AI-SRE Agent](https://github.com/Nasir-ux1/ai-sre-agent) | Autonomous AI systems troubleshooter and Bash safe-fix generator | Python, Streamlit, Rich CLI, pytest, Gemini & OpenAI APIs |
 | [AI Autonomous Data Scientist](https://github.com/Nasir-ux1/ai-autonomous-data-scientist) | Automated data science app with profiling, ML, charts, and reports | Python, Streamlit, pandas, scikit-learn, Plotly |
 | [UbuntuOps Agent](https://github.com/Nasir-ux1/ubuntuops-agent) | Linux incident response and SRE diagnostics | Python, Linux, systemd, journald, Docker |
 | [InsightForge Agent](https://github.com/Nasir-ux1/insightforge-agent) | Autonomous data analyst for CSV/XLSX reports | Python, pandas, matplotlib, Streamlit |
