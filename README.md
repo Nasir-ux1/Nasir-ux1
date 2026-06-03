@@ -25,6 +25,24 @@ I build practical software projects around AI agents, data analysis, Linux opera
 
 ## Featured Projects
 
+### Financial Risk Analysis AI Assistant
+
+An AI-powered credit risk assessment and regulatory compliance platform that retrieves regulatory rules from a FAISS vector store, performs structured evaluations using the Claude API, and validates outputs using an LLM-as-a-Judge framework.
+
+**What it does**
+
+- **Automated Financial Ratios**: Computes Current Ratio, Debt-to-Equity, Interest Coverage, and the Altman Z-Score from balance sheets.
+- **RAG Regulatory Retrieval**: Indexes Basel III, IFRS 9, and SEC regulations into a FAISS vector store using LangChain.
+- **Prompt Engineering Workshop**: Compares Zero-Shot, Few-Shot, and Chain-of-Thought prompts side-by-side.
+- **LLM-as-a-Judge Audits**: Evaluates assessments for accuracy, completeness, and regulatory alignment, logging results to track accuracy gains.
+- **Interactive UI & RBAC**: Provides a glassmorphic dashboard with user logins, role access (`ANALYST` / `ADMIN`), and automated pytest coverage.
+
+**Tech:** Python, FastAPI, SQLAlchemy, LangChain, FAISS, Anthropic (Claude API), pytest, Vanilla CSS
+
+Repo: [financial-risk-analysis-ai](https://github.com/Nasir-ux1/financial-risk-analysis-ai)
+
+---
+
 ### AI-SRE - Autonomous Linux Troubleshooting Agent
 
 An interactive terminal and Streamlit-based incident response agent that merges safe local systems tool execution with LLM reasoning.
@@ -105,6 +123,7 @@ Repo: [insightforge-agent](https://github.com/Nasir-ux1/insightforge-agent)
 
 | Project | Focus | Stack |
 | --- | --- | --- |
+| [Financial Risk Analysis AI Assistant](https://github.com/Nasir-ux1/financial-risk-analysis-ai) | AI credit risk assessment, regulatory RAG retrieval, and prompt engineer playground | Python, FastAPI, LangChain, FAISS, Claude API, pytest |
 | [AI-SRE Agent](https://github.com/Nasir-ux1/ai-sre-agent) | Autonomous AI systems troubleshooter and Bash safe-fix generator | Python, Streamlit, Rich CLI, pytest, Gemini & OpenAI APIs |
 | [AI Autonomous Data Scientist](https://github.com/Nasir-ux1/ai-autonomous-data-scientist) | Automated data science app with profiling, ML, charts, and reports | Python, Streamlit, pandas, scikit-learn, Plotly |
 | [UbuntuOps Agent](https://github.com/Nasir-ux1/ubuntuops-agent) | Linux incident response and SRE diagnostics | Python, Linux, systemd, journald, Docker |
@@ -125,6 +144,8 @@ Repo: [insightforge-agent](https://github.com/Nasir-ux1/insightforge-agent)
 
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3A?style=for-the-badge&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 
