@@ -25,6 +25,24 @@ I build practical software projects around AI agents, data analysis, Linux opera
 
 ## Featured Projects
 
+### Banking Transaction & Fraud Detection System
+
+A production-grade microservices banking backend system that handles customer account management, transaction processing (debits, credits, transfers), and automatic transaction fraud risk evaluations.
+
+**What it does**
+
+- **State Machine Transactions**: Implements transition stages (`PENDING` -> `PROCESSING` -> `COMPLETED`/`FAILED`) with immutable PostgreSQL event log records.
+- **Idempotency & Concurrency**: Restores cached responses using `@Idempotent` aspects on HTTP `Idempotency-Key` headers, and uses `@Version` optimistic locking with lock-ordered Account IDs to prevent balance deadlocks.
+- **8-Signal Fraud Rule Engine**: Evaluates transaction velocity, off-hours, location anomalies, young accounts, new payees, and device fingerprints to generate risk scores (0-100).
+- **Compliance Hold Queue**: Routes high-risk transfers ($\ge 70$) into a review hold queue, running automated natural language risk explanations.
+- **Automated CI/CD & Deploy**: Configured with Docker Compose orchestrators, Dockerfiles, and GitHub Actions Maven unit/mock test validation.
+
+**Tech:** Java, Spring Boot, Spring Security (JWT), Hibernate, Flyway, PostgreSQL, H2, JUnit 5, Mockito, AOP, Docker, GitHub Actions
+
+Repo: [banking-system](https://github.com/Nasir-ux1/banking-system)
+
+---
+
 ### Financial Risk Analysis AI Assistant
 
 An AI-powered credit risk assessment and regulatory compliance platform that retrieves regulatory rules from a FAISS vector store, performs structured evaluations using the Claude API, and validates outputs using an LLM-as-a-Judge framework.
@@ -123,6 +141,7 @@ Repo: [insightforge-agent](https://github.com/Nasir-ux1/insightforge-agent)
 
 | Project | Focus | Stack |
 | --- | --- | --- |
+| [Banking Transaction & Fraud Detection System](https://github.com/Nasir-ux1/banking-system) | Microservices banking system with optimistic locking, idempotency keys, and compliance fraud review holds | Java, Spring Boot, Spring Security, Flyway, PostgreSQL, H2, JUnit, Mockito |
 | [Financial Risk Analysis AI Assistant](https://github.com/Nasir-ux1/financial-risk-analysis-ai) | AI credit risk assessment, regulatory RAG retrieval, and prompt engineer playground | Python, FastAPI, LangChain, FAISS, Claude API, pytest |
 | [AI-SRE Agent](https://github.com/Nasir-ux1/ai-sre-agent) | Autonomous AI systems troubleshooter and Bash safe-fix generator | Python, Streamlit, Rich CLI, pytest, Gemini & OpenAI APIs |
 | [AI Autonomous Data Scientist](https://github.com/Nasir-ux1/ai-autonomous-data-scientist) | Automated data science app with profiling, ML, charts, and reports | Python, Streamlit, pandas, scikit-learn, Plotly |
