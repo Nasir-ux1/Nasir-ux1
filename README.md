@@ -17,7 +17,7 @@
 I build practical software projects around AI agents, data analysis, Linux operations, automation, and infrastructure tooling. My current focus is on portfolio-grade systems that accept messy inputs, run real analysis, and produce useful reports or actions.
 
 - Working on: AI data apps, autonomous agents, Ubuntu diagnostics, and DevOps automation
-- Comfortable with: Python, pandas, scikit-learn, Streamlit, Linux, Bash, Docker, GitHub Actions, and APIs
+- Comfortable with: Python, React, pandas, scikit-learn, Streamlit, Linux, Bash, Docker, GitHub Actions, and APIs
 - Interested in: Linux systems, SRE tooling, AI engineering, backend systems, and cloud infrastructure
 - Goal: build reliable tools that turn raw data, logs, and user questions into clear decisions
 
@@ -53,9 +53,9 @@ An AI-powered credit risk assessment and regulatory compliance platform that ret
 - **RAG Regulatory Retrieval**: Indexes Basel III, IFRS 9, and SEC regulations into a FAISS vector store using LangChain.
 - **Prompt Engineering Workshop**: Compares Zero-Shot, Few-Shot, and Chain-of-Thought prompts side-by-side.
 - **LLM-as-a-Judge Audits**: Evaluates assessments for accuracy, completeness, and regulatory alignment, logging results to track accuracy gains.
-- **Interactive UI & RBAC**: Provides a glassmorphic dashboard with user logins, role access (`ANALYST` / `ADMIN`), and automated pytest coverage.
+- **Interactive UI & RBAC**: Provides a glassmorphic **React (Vite)** dashboard with user logins, role access (`ANALYST` / `ADMIN`), and automated pytest coverage.
 
-**Tech:** Python, FastAPI, SQLAlchemy, LangChain, FAISS, Anthropic (Claude API), pytest, Vanilla CSS
+**Tech:** Python, FastAPI, React, Vite, SQLAlchemy, LangChain, FAISS, Anthropic (Claude API), pytest, CSS
 
 Repo: [financial-risk-analysis-ai](https://github.com/Nasir-ux1/financial-risk-analysis-ai)
 
@@ -142,7 +142,7 @@ Repo: [insightforge-agent](https://github.com/Nasir-ux1/insightforge-agent)
 | Project | Focus | Stack |
 | --- | --- | --- |
 | [Banking Transaction & Fraud Detection System](https://github.com/Nasir-ux1/banking-system) | Microservices banking system with optimistic locking, idempotency keys, and compliance fraud review holds | Java, Spring Boot, Spring Security, Flyway, PostgreSQL, H2, JUnit, Mockito |
-| [Financial Risk Analysis AI Assistant](https://github.com/Nasir-ux1/financial-risk-analysis-ai) | AI credit risk assessment, regulatory RAG retrieval, and prompt engineer playground | Python, FastAPI, LangChain, FAISS, Claude API, pytest |
+| [Financial Risk Analysis AI Assistant](https://github.com/Nasir-ux1/financial-risk-analysis-ai) | AI credit risk assessment, regulatory RAG retrieval, and prompt engineer playground | Python, FastAPI, React, Vite, LangChain, FAISS, Claude API, pytest |
 | [AI-SRE Agent](https://github.com/Nasir-ux1/ai-sre-agent) | Autonomous AI systems troubleshooter and Bash safe-fix generator | Python, Streamlit, Rich CLI, pytest, Gemini & OpenAI APIs |
 | [AI Autonomous Data Scientist](https://github.com/Nasir-ux1/ai-autonomous-data-scientist) | Automated data science app with profiling, ML, charts, and reports | Python, Streamlit, pandas, scikit-learn, Plotly |
 | [UbuntuOps Agent](https://github.com/Nasir-ux1/ubuntuops-agent) | Linux incident response and SRE diagnostics | Python, Linux, systemd, journald, Docker |
@@ -167,6 +167,8 @@ Repo: [insightforge-agent](https://github.com/Nasir-ux1/insightforge-agent)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3A?style=for-the-badge&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
 **DevOps / Systems**
 
