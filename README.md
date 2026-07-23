@@ -23,6 +23,8 @@ I build practical software projects around AI agents, data analysis, Linux opera
 
 ---
 
+## Featured Projects
+
 ### Financial Risk Analysis AI Assistant
 
 An AI-powered credit risk assessment and regulatory compliance platform that retrieves regulatory rules from a FAISS vector store, performs structured evaluations using the Claude API, and validates outputs using an LLM-as-a-Judge framework.
@@ -40,8 +42,6 @@ An AI-powered credit risk assessment and regulatory compliance platform that ret
 Repo: [financial-risk-analysis-ai](https://github.com/Nasir-ux1/financial-risk-analysis-ai)
 
 ---
-
-## Featured Projects
 
 ### Banking Transaction & Fraud Detection System
 
