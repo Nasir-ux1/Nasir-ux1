@@ -23,6 +23,24 @@ I build practical software projects around AI agents, data analysis, Linux opera
 
 ---
 
+### Financial Risk Analysis AI Assistant
+
+An AI-powered credit risk assessment and regulatory compliance platform that retrieves regulatory rules from a FAISS vector store, performs structured evaluations using the Claude API, and validates outputs using an LLM-as-a-Judge framework.
+
+**What it does**
+
+- **Automated Financial Ratios**: Computes Current Ratio, Debt-to-Equity, Interest Coverage, and the Altman Z-Score from balance sheets.
+- **RAG Regulatory Retrieval**: Indexes Basel III, IFRS 9, and SEC regulations into a FAISS vector store using LangChain.
+- **Prompt Engineering Workshop**: Compares Zero-Shot, Few-Shot, and Chain-of-Thought prompts side-by-side.
+- **LLM-as-a-Judge Audits**: Evaluates assessments for accuracy, completeness, and regulatory alignment, logging results to track accuracy gains.
+- **Interactive UI & RBAC**: Provides a glassmorphic **React (Vite)** dashboard with user logins, role access (`ANALYST` / `ADMIN`), and automated pytest coverage.
+
+**Tech:** Python, FastAPI, React, Vite, SQLAlchemy, LangChain, FAISS, Anthropic (Claude API), pytest, CSS
+
+Repo: [financial-risk-analysis-ai](https://github.com/Nasir-ux1/financial-risk-analysis-ai)
+
+---
+
 ## Featured Projects
 
 ### Banking Transaction & Fraud Detection System
@@ -40,24 +58,6 @@ A production-grade microservices banking backend system that handles customer ac
 **Tech:** Java, Spring Boot, Spring Security (JWT), Hibernate, Flyway, PostgreSQL, H2, JUnit 5, Mockito, AOP, Docker, GitHub Actions
 
 Repo: [banking-system](https://github.com/Nasir-ux1/banking-system)
-
----
-
-### Financial Risk Analysis AI Assistant
-
-An AI-powered credit risk assessment and regulatory compliance platform that retrieves regulatory rules from a FAISS vector store, performs structured evaluations using the Claude API, and validates outputs using an LLM-as-a-Judge framework.
-
-**What it does**
-
-- **Automated Financial Ratios**: Computes Current Ratio, Debt-to-Equity, Interest Coverage, and the Altman Z-Score from balance sheets.
-- **RAG Regulatory Retrieval**: Indexes Basel III, IFRS 9, and SEC regulations into a FAISS vector store using LangChain.
-- **Prompt Engineering Workshop**: Compares Zero-Shot, Few-Shot, and Chain-of-Thought prompts side-by-side.
-- **LLM-as-a-Judge Audits**: Evaluates assessments for accuracy, completeness, and regulatory alignment, logging results to track accuracy gains.
-- **Interactive UI & RBAC**: Provides a glassmorphic **React (Vite)** dashboard with user logins, role access (`ANALYST` / `ADMIN`), and automated pytest coverage.
-
-**Tech:** Python, FastAPI, React, Vite, SQLAlchemy, LangChain, FAISS, Anthropic (Claude API), pytest, CSS
-
-Repo: [financial-risk-analysis-ai](https://github.com/Nasir-ux1/financial-risk-analysis-ai)
 
 ---
 
